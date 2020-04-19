@@ -4,6 +4,12 @@ This ia a very simple Go app which determines whether the numbers are odd or eve
 
 [client_golang](https://github.com/prometheus/client_golang) is used to instrument the app. Two counters have been added to monitor odd and even checks. 
 
+#### run the program:
+> go run main.go
+
+#### see the metrics:
+http://localhost:2112/metrics
+
 ### How to integrate this metrics with a Prometheus server?
 
 <img src="goandprom.png"
