@@ -9,7 +9,7 @@ import (
 )
 
 func oddOrEven(n int) string {
-	if n%2 != 0 {
+	if n%2 == 0 {
 		evenNumbersProcessed.Inc()
 		return "even"
 	}
